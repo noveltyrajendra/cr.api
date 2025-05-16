@@ -1,0 +1,17 @@
+{
+  "name": "College Recon API",
+  "version": "0.1.0",
+  "description": "API documentation for College Recon",
+  "template": {
+    "withCompare": false
+  },
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2017-03-09T11:00:14.405Z",
+    "url": "http://apidocjs.com",
+    "version": "0.17.5"
+  }
+}

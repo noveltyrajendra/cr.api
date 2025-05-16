@@ -1,0 +1,32 @@
+const STUDENT_MAP = {
+  uuid: 'uuid',
+  first_name: 'firstName',
+  middle_initial: 'middleInitial',
+  last_name: 'lastName',
+  email: 'email',
+  password: 'password',
+  user_account_status: 'userAccountStatus',
+  terms_of_comm: 'termsOfComm',
+  date_created: 'dateCreated',
+  deactivation_reason: 'deactivationReason',
+  last_login: 'lastLogin',
+  utm_medium: 'utmMedium',
+  utm_source: 'utmSource',
+  utm_campaign: 'utmCampaign',
+  last_updated: 'lastUpdated',
+  site_source: 'siteSource',
+  nag_email_subscription: 'nagEmailSubscription',
+  unsubscription_reason: 'unsubscriptionReason',
+  primary_source: 'primarySource',
+  secondary_source: 'secondarySource',
+  match_college_id: 'matchCollegeId',
+  filters: 'filters',
+  filter_majordata: 'filterMajordata',
+  filter_state: 'filterState',
+  filter_bucketdata: 'filterBucketdata',
+  register_source: 'registerSource',
+};
+
+module.exports = {
+  STUDENT_MAP,
+};

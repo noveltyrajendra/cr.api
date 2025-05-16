@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "collegerecon-249907",
+  "private_key_id": "0fc6a668d42d5f3f0d8c198794c2a37d7f8d6ac9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0ubVEizx3OlBO\n8Xem1emwC1I5SxgFIMArBrGM7AFkGfQyas5NfLEV2NM4+t3EANN6IfHjJg1MuP48\ny8/5MaGx9xSt7bfo+FHj4mQKz2N6vCtQNmKj2sdubqpTs5Iq6+jAYiL5rhuHsH9O\nAlx94rS02tTkYN62gPrZSVviIPBFskJkIC8mpr8fTTERpCyvtpz1Mk1axfnxdK1u\nBVL631/l4QrgoMxvZHzmoA8KhBTlnmKMPa4vOUtQzGt0v26D/m7hcO5tEYVxntJj\nvULxnzpdhGcZ18qZa1xd/3V4QoH7+jLYTSHtyeI8PCgjeUGuozAvOjARUny5O2DP\nLudPSDb7AgMBAAECggEAQujEXymri7rHs8p7UYW9/ILcgMC4FmHvM57JSlKwGybu\nvWHEmnSRPXTmkqByTVg+82cw3jee0eplmg2dJHXHFxPSkKhDoBmbe+K7xjLM8kpL\nQOm5sE9V6aFIJzAC7CgmJl/O8iCPKbfjEfcW1jaCT7j6+8iPfAMZnCuoPHqUakC5\nMnH9j/i7Nl19exuqYIXx3estHQtyEseMCxs6TzbxQxXHHuJ+sUbzL56Pwpf40+hm\nFmTxv73mZO4FevWXLvCLhkrtCUVwkQ1a5/tpVRIMhYLM87+M5xPiU9kt4d9np+FQ\nfiulpz2jmjyR+AjaTYHtUP7AWmQebeUVX2fP5kOvHQKBgQD8u+2FXWTQTdfY+MrR\nXM2YMFDfSuejjZ1+doN8rNmOeRC0lyVzWWb7759JNc0pyii759Bc8xRYXr047FrC\nptvAdleYCIx8FPTo/ht55gaAa0PkwXARmvTqusHGBRatklYojhrNfiszbKvvv88c\nYfe+yw/jaKqMues/7EWR9pt6ZwKBgQC3D5FR5JTCnU8L1wVZO5mdQEWliTEc2/c6\nawqI11mB6eogWtImGfdmh25BNJOvSmXXMFdZV16B8q7I7gSgKvt659jiX6lJIEAh\nKkUI86yAvo4IIRpcxJKRcNAuYDP8N8nXAfgs71WkIR/s9zLgJp2fipnnBWyo2QC4\nWVDwdWSqTQKBgQCaapAjDf8MrqMU9F2nMZaER/EBnRiOe3Yg0HRh9pIuVJX6YOcG\n5Tbg83VVG8Qwpk3hES/jurlRjQD8CJ0jlSNrImM+huqe3YcN3EQZZIvQZrliyTWZ\n7B18VYMTZASJJIHz4W9K4q2ui9U5dO4sH0dpkVQx079woB+2PLv9BLnWPQKBgQCq\nh8MNMc3umdJ4Kh8eaCoK1kPLGEl7I+JkNjEDFvGX10s2RsS7n7bbeVAZSBxH0Buc\n4biNTpmInoV6QlhmyIOqk+5zuz+dEoELJDBZTX4mFN2E7yl6v9f1ysz0VsQ2sdXC\nCGCjo3T5R65Q9lsben2dkOUb0+7MQBKuqO2Agyt6hQKBgEGurQywwG0WK405CrR7\nsRWchmRzUIzYRyysC3X61+syZeXhBYAZtTbYhPbrzrZXLBUKwUa8Ws2WAqmyoez7\nW9KcR7Sv8Zc9Xrnu9TDGURG8gnhbIYmS0UP3J3b3wk6n/6FdchxyjaJyVkFXllEk\n23Djk32ovSlueiTNZRbD2zht\n-----END PRIVATE KEY-----\n",
+  "client_email": "veterans@collegerecon-249907.iam.gserviceaccount.com",
+  "client_id": "108979289383625912605",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/veterans%40collegerecon-249907.iam.gserviceaccount.com"
+}

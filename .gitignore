@@ -1,0 +1,17 @@
+# Dependencies #
+node_modules
+veteran_images
+college_images
+social_images
+config/*development.js
+csv
+xl
+
+# Log files #
+*log.txt
+*.log
+.env
+.vscode
+college_images
+keys
+update-overview.js

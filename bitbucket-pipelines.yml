@@ -1,0 +1,11 @@
+pipelines:
+  branches: 
+    staging:
+      - step:
+          script:
+            - pipe: atlassian/ssh-run:0.4.0
+              variables:
+                SSH_USER: 'novelty'
+                SERVER: '54.186.38.115'
+                MODE: 'command'
+                COMMAND: '/home/novelty/CollegereconApplications/collegereconapi/deploy.sh'

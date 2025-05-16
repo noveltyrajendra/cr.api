@@ -1,0 +1,19 @@
+exports.veteranMilitaryStaus=[
+    {name:"Active",value:"military_status_ams"},
+    {name:"Veteran",value:"military_status_veteran"},
+    {name:"Guard",value:"military_status_ng"},
+    {name:"Reserve",value:"military_status_reserve"},
+    {name:"Retiree",value:"military_status_retiree"},
+    {name:"Dependent",value:"military_status_dependent"},
+    {name:"Spouse",value:"military_status_spouse"}
+]
+
+exports.veteranMilitaryBranch=[
+    {id:"1",name:"military_branch_army"},
+    {id:"4",name:"military_branch_marine_corps"},
+    {id:"2",name:"military_branch_navy"},
+    {id:"5",name:"military_branch_air_force"},
+    {id:"3",name:"military_branch_coast_guard"},
+    {id:"22",name:"military_branch_space_force"},
+    {id:"21",name:"military_branch_other"}
+]

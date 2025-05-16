@@ -1,0 +1,81 @@
+let superAdminCollegeModel = function(src){
+  let config = require('../config');
+  let stringUtil = require('../utils/stringUtil');
+  let list=[];
+  
+	src.forEach(function(obj)
+	{	
+		list.push({
+      collegeName: obj.college_name,
+      collegeAlias: obj.college_alias,
+      collegeAccessLevel: obj.access_level,
+      seoName: obj.seo_name,
+      collegeAddress: obj.address,
+      collegeCity: obj.city,
+      collegeState: obj.state,
+      collegePostalCode: obj.postal_code,
+      collegePhoneNumber: obj.phone_number,
+      collegeFaxNumber: obj.fax_number,
+      collegeContactEmail: obj.contact_email,
+      collegeWebsite: obj.website,
+      collegeAbbreviation: obj.college_abbreviation,
+      collegeCommonName: obj.college_common_name,
+      veteranAffairsAddress: obj.veteran_affairs_address,
+      veteranAffairsPhone: obj.veteran_affairs_phone,
+      veteranAffairsFax: obj.veteran_affairs_fax,
+      veteranAffairsEmail:obj.veteran_affairs_email,
+      veteranAffairsWebsite: obj.veteran_affairs_website,
+      inStateTuition: obj.in_state_tuition,
+      outStateTuition: obj.out_state_tuition,
+      maleStudentCount: obj.male_student_count,
+      femaleStudentCount: obj.female_student_count,
+      studentPopulation: obj.student_population,
+      religiousAffiliation: obj.religious_affiliation,
+      ethnicAffiliation: obj.ethnic_affiliation,
+      yearsOffered: obj.years_offered,
+      genderPreference: obj.gender_preference,
+      actScore: obj.act_score,
+      satScore: obj.sat_score,
+      collegePhoto: config.AWS_IMAGE_RESOURCE_COLLEGE+obj.college_photo,
+      collegeLogo: config.AWS_IMAGE_RESOURCE_COLLEGE+obj.college_logo,
+      collegeBanner: config.AWS_IMAGE_RESOURCE_COLLEGE+obj.college_banner,
+      overview: obj.overview,
+      college_overview: obj.college_overview,
+      displayText: obj.display_text,
+      collegeType: obj.college_type,
+      appStateList: obj.include_app_state,
+      legionStateList:obj.include_legion_state,
+      flowStateList:obj.include_flow_state,
+      militaryStateList:obj.include_military_state,
+      metaPageTitle:obj.page_title,
+      metaDescription:obj.description,
+      metaKeywords:obj.keywords,
+      metaOgTitle:obj.og_title,
+      metaOgDescription:obj.og_description,
+      publicPrivate:obj.public_private,
+      yellowRibbonCoverage:obj.yellow_ribbon_coverage,
+      inStateCostpercredit:obj.in_state_costpercredit,
+      outStateCostpercredit:obj.out_state_costpercredit,
+      vsdTitle:obj.vsd_title,
+      vsdName:obj.vsd_name,
+      vsdShortBio:obj.vsd_short_bio,
+      vsdImage:config.AWS_IMAGE_RESOURCE_COLLEGE+"vsd/"+obj.vsd_image,
+      vsdMessage:obj.school_message,
+      cpchUndergraduateCampus: obj.cpch_undergraduate_campus,
+      cpchUndergraduateOnline: obj.cpch_undergraduate_online,
+      cpchGraduateCampus: obj.cpch_graduate_campus,
+      cpchGraduateOnline: obj.cpch_graduate_online,
+      tuitionCpch: obj.tuition_cpch,
+      onlineDisplay: obj.search_online_display,
+      myCAA: obj.mycaa,
+			rotcOverview: obj.rotc_overview,
+      updateLock: obj.update_lock,
+      phoneRequired: obj.phone_required,
+      parentId: obj.parent_id,
+      showParentChild: obj.show_parent_child
+		});
+  });
+	return list;
+};
+
+module.exports = superAdminCollegeModel;

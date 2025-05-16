@@ -1,0 +1,2 @@
+exports.GET_ALL_AWARD_QUERY ="Select * FROM awards where status='ACTIVE' order by award_short_name ASC";
+exports.GET_ALL_AWARD_TITLE_QUERY ="Select * FROM awards where status='ACTIVE' and `award_short_name` like ?";

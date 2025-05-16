@@ -1,0 +1,4 @@
+exports.SAVE_SYSTEM_MESSAGE = "INSERT INTO system_message SET ?";
+exports.NAG_EMAIL_SUBJECTS = ["you have new messages waiting","messages awaiting your reply","messages received and awaiting your reply","final reminder: respond to colleges now"];
+exports.SCHOLARSHIP_SUBJECTS = ["important scholarship updates","matching scholarship updates","important information on scholarships you requested","matching scholarship info you requested","important scholarship matching update"];
+exports.CAMPAIGN_SUBJECTS = ["osi campaign performance report","osi campaign actualcpi above $180 report","osi campaign drops by 30% report"];

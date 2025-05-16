@@ -1,0 +1,2 @@
+exports.GET_RANK_BY_BRANCH_QUERY ="Select * FROM ranks where branch= ? order by SUBSTRING(rank_short_name,1,1),CAST(SUBSTRING(rank_short_name,3,2) as UNSIGNED) ASC";
+exports.GET_RANK_BY_INFO_QUERY ="Select * FROM college_ranks where id= ?";

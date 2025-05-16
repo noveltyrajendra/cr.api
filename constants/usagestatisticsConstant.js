@@ -1,0 +1,10 @@
+exports.DEFAULT_COLLEGE_CONTACT_STUDENT = "SELECT count(distinct(college_id)) as c_contacts FROM `recon_messages` WHERE student_id =";
+exports.DEFAULT_FAVOURITE_COLLEGE_STUDENT = "SELECT count(*) as c_favs FROM fav_colleges WHERE college_id != '' AND student_id = ";
+exports.DEFAULT_SEARCH_STUDENT = "SELECT num_count FROM usage_statistics WHERE student_id = ";
+exports.DEFAULT_VIEW_FOR_STUDENT = "SELECT count(id) as student_views FROM usage_statistics WHERE resource = 'COLLEGEVIEW' AND student_id ="; 
+exports.DEFAULT_SEARCH_BY_COLLEGE = "SELECT num_count FROM usage_statistics WHERE college_id = ? AND resource = 'SEARCH'";
+exports.DEFAULT_FAV_COLLEGE_FOR_COLLEGE = "SELECT count(*) as num_favorited FROM `fav_colleges` WHERE college_id = ?";
+exports.DEFAULT_COLLEGE_VIEW_STUDENT = "SELECT count(id) as college_views FROM `usage_statistics` WHERE college_id = ? AND resource = 'STUDENTVIEW'";
+exports.DEFAULT_COLLEGE_VIEW_PUBLIC = "SELECT num_count FROM `usage_statistics` WHERE college_id = ? AND resource = 'PUBLICVIEW'";
+exports.SEARCH_FOR_COLLEGE = "SELECT num_count FROM usage_statistics WHERE college_id = ? AND resource = 'SEARCH'";
+exports.FAVOURITE_COLLEGES_FOR_COLLEGES = "SELECT count(*) as num_favorited FROM `fav_colleges` WHERE college_id = ?";

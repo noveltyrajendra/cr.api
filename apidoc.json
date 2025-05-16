@@ -1,0 +1,8 @@
+{
+  "name": "College Recon API",
+  "version": "0.1.0",
+  "description": "API documentation for College Recon",
+  "template" : {
+    "withCompare" : false
+  }
+}
